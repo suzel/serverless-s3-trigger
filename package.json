@@ -1,0 +1,25 @@
+{
+  "name": "serverless-s3-trigger",
+  "version": "0.0.1",
+  "description": "AWS S3 Trigger",
+  "license": "MIT",
+  "author": "Sukru Uzel <sukru.uzel@gmail.com> (http://www.sukruuzel.com)",
+  "homepage": "https://github.com/suzel/serverless-s3-trigger#readme",
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzel/serverless-s3-trigger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suzel/serverless-s3-trigger/issues"
+  },
+  "scripts": {
+    "deploy": "sls deploy --stage dev -v",
+    "remove": "sls remove"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.512.0",
+    "serverless": "^1.50.0"
+  }
+}
